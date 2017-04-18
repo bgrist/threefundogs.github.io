@@ -1,0 +1,111 @@
+/*
+    ================================
+    Grid
+    ================================
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+}
+*/
+/*
+    ================================
+    Grid
+    ================================
+*/
+
+/* h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+} */
+
+/*
+    ================================
+    Buttons
+    ================================
+*/
+
+/* .btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+} */
+
+/* .btn-alt {
+    border: 1px solid gray;
+    padding: 10px 30px;
+} */
+
+/*
+    ================================
+    Home
+    ================================
+*/
+
+body {
+    background-color: #c9c6c1;
+}
+
+.home_content {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    /*color: #A39E97; */
+    color: white;
+}
+
+.welcome_text {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link .welcome_text {
+    text-decoration: none;
+    color: white;
+    text-shadow: -5px 5px 10px #7E786D;
+}
+
+a:visited, a:focus .welcome_text {
+    font-weight: bold;
+    text-decoration: line-through;
+    color: white;
+}
+
+a:hover .welcome_text {
+    font-weight: bold;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+	width: auto;
+	height: 50%;
+}
+
+/*
+    ================================
+    Main Page
+    ================================
+*/
+
+.logo-small {
+    max-width: 70px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
